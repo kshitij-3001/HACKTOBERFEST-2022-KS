@@ -9,12 +9,14 @@ ul{
 }
 
 li{
-    float: left;
+    float: right;
 }
 
 li a{
-    display: block;
-    padding: 8px;
-    background-color:cyan;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    background-color:rgba(61, 147, 196, 0.669);
+    color: black;
 }
 
