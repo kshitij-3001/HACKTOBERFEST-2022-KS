@@ -7,9 +7,9 @@
 
 
 .food_card {
-  border: 1px solid black;
-  width: 300px;
-  height: 300px;
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
   margin: 0px 200px  ;
   box-shadow: rgba(100, 84, 243, 0.35) 10px 15px 15px;
   background: url("https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
@@ -23,8 +23,8 @@
 
 .softdrink{
   border: 1px solid black;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   margin: 0px 200px  ;
   box-shadow: rgba(100, 84, 243, 0.35) 10px 15px 15px;
   background: url("https://images.unsplash.com/photo-1553485657-b0ad6c8cc1c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=787&q=80");
@@ -39,20 +39,20 @@
 
 .food_card:hover {
   animation-name: food-animation;
-  animation-duration: 0.8s;
-  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
 }
 
 .softdrink:hover{
   animation-name: food-animation;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
 }
 
 
 @keyframes food-animation {
   100% {
-    transform: rotate(360deg);
+    transform: rotate(10deg);
   }
 }
 
