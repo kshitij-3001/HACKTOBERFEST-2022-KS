@@ -45,12 +45,13 @@
 
 .list-items{
     border: 1px dotted grey;
+    color: red;
 }
 
 input[type="checkbox"]{
     border: 1px solid red;
-    width: 45px;
-    height: 35px;
+    width: 50px;
+    height: 45px;
     outline: 0px;
     position: absolute;
     top: 0px;
@@ -67,11 +68,11 @@ input[type="checkbox"]:checked ~.line2{
 }
 
 input[type="checkbox"]:checked ~.line1{
-    transform: rotate(40deg)translate(30%,30%);
+    transform: rotate(409deg)translate(30%,30%);
 }
 
 input[type="checkbox"]:checked ~.line3{
-    transform: rotate(-43deg)translate(30%,-30%);
+    transform: rotate(-409deg)translate(30%,-30%);
 }
 
 .line1, .line2, .line3 {
@@ -80,11 +81,4 @@ input[type="checkbox"]:checked ~.line3{
     background-color:black;
     margin: 6px 0;
 
-  }
-
-  
-
- /* li{
-    text-decoration: underline dotted ;
-    text-decoration-color:blueviolet ;
-  }*/
+}
